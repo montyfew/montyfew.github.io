@@ -19,7 +19,7 @@ body {
     background: #fcfcfc;
     color: #222;
 
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
     padding-top: 100px;
     padding-left: 10px;
@@ -41,7 +41,7 @@ h1 {
 
 div.outer-flex-container {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-between;
 
 }
@@ -70,11 +70,15 @@ article.project {
 }
 
 article {
-    width: 150px;
-    height: 250px;
+    width: 300px;
+    // height: 250px;
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 300px;
+        height: 300px;
+    }
+
+    p {
+        font-size: 0.8em;
     }
 }
