@@ -1,3 +1,5 @@
+@import "entries";
+
 $font_stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 $title_font_stack: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
 
@@ -17,7 +19,7 @@ body {
     background: #fcfcfc;
     color: #222;
 
-    max-width: 900px;
+    max-width: 1500px;
     margin: auto;
     padding-top: 100px;
     padding-left: 10px;
@@ -27,7 +29,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .map {
@@ -61,7 +63,7 @@ section.description {
 
 article.project {
     h2 {
-        font-size: 0.8em;
+        font-size: 1em;
         margin-top: 0.3em;
     }
     

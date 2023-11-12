@@ -17,6 +17,8 @@ layout: default
   map.addControl(new maplibregl.NavigationControl());
 </script>
 
+
+
 <div class = "outer-flex-container">
 
 <section class = "description">
@@ -30,7 +32,9 @@ An excerpt from ....
 <section class = "projects">
 {% for entry in site.entries %}
   <article class = "project">
-    <img src="{{entry.image.src}}" alt="{{entry.image.alt}}">
+    <a href="{{entry.url}}">
+      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}">
+    </a>
     <h2 class = "project-title">{{entry.title}}</h2>
   </article>
 {% endfor %}
