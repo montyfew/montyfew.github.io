@@ -1,0 +1,78 @@
+$font_stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+$title_font_stack: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
+
+
+* {
+    box-sizing: border-box;
+    font-family: $font_stack;
+    text-rendering: geometricPrecision;
+}
+
+html {
+    width: 100vw;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fcfcfc;
+    color: #222;
+
+    max-width: 900px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border: 1px black solid;
+    margin-bottom: 1em; // gap between map and images below
+  }
+
+div.outer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+section.projects {
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+    flex-wrap: wrap; // flow images to next line on small screens
+    gap: 1em; // gap between adjacent images
+}
+
+section.description {
+    width: 200px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    flex-shrink: 1;
+}
+
+article.project {
+    h2 {
+        font-size: 0.8em;
+        margin-top: 0.3em;
+    }
+    
+}
+
+article {
+    width: 150px;
+    height: 250px;
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
