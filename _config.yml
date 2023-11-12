@@ -3,3 +3,10 @@ host: 0.0.0.0
 collections:
   entries:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "entries"
+    values:
+      layout: "entry"
