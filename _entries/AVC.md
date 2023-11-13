@@ -3,6 +3,9 @@ title: |
     Audiovisual Cultures
     'Rhythms of the City'
 
+color: orange
+kml: /assets/maps/C2C.kml
+
 image:
     src: /assets/images/AVC.jpg
     alt: A fragmented image of a nighttime view from Greenwich Peninsula to Canary Wharf

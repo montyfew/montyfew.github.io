@@ -3,6 +3,8 @@ title: |
     Major Project
     'Audiovisual Explorations of London'
 
+color: blue
+
 image:
     src: /assets/images/LondonRoutine.jpg
     alt: a view onto the train tracks near South Bermondsey with industrial works in the background

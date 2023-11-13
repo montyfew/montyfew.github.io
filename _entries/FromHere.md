@@ -3,6 +3,8 @@ title: |
     Ethnographic Film and Music Research
     'From Here'
 
+color: green
+
 image:
     src: /assets/images/FromHere.jpg
     alt: A blurred image taken out of a moving train window
