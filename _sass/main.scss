@@ -53,7 +53,7 @@ section.description {
 section.projects {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap; // flow images to next line on small screens
     gap: 1em; // gap between adjacent images
 }
