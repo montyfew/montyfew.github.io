@@ -27,8 +27,8 @@ body {
     
 }
 
-div#banner-map {
-    // filter: invert(1);
+.alidade_smooth_greyscale {
+    filter: grayscale(1);
 }
 
 h1 {
@@ -45,9 +45,10 @@ h1 {
 
 section.description {
     width: 250px;
-    // flex-grow: 1;
+    // height: fit-content;
+    flex-grow: 1;
     padding: 1em;
-    // border: 1px #2222 solid;
+    border: 1px #2222 solid;
 }
 
 section.projects {
