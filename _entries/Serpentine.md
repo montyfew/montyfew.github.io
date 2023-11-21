@@ -3,6 +3,8 @@ title: |
     Audiovisual Composition
     'Serpentine'
 
+color: yellow
+
 image:
     src: /assets/images/Serpentine.jpg
     alt: the lights of a distant fairground reflected in the Serpentine Lake, Hyde Park

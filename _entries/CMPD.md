@@ -3,6 +3,10 @@ title: |
     Contemporary Music: Practice and Discourse
     'Mapping Place / Assemblage'
 
+
+color: red
+kml: /assets/maps/route.gpx
+
 image:
     src: /assets/images/CMPD.jpg
     alt: an abstracted image of my music equipment, reflecting the city lights

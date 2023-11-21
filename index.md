@@ -16,45 +16,20 @@ head: |
 # Monty Williams // MA Music (Audiovisual Cultures)
 
 <div id="banner-map" class="map"></div>
-<script type="text/javascript">
-    let Stamen_Toner = L.tileLayer('https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.jpg?key=paglUJQl74h39APJmOFJ', {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 16,
-    ext: 'png'
-    });
-
-    let map = L.map('banner-map', {attributionControl: false, zoomControl: false})
-      .setView({'lat': 51.50918512396602, 'lng': -0.12824427831868365}, 10);
-    map.addLayer(Stamen_Toner);   
-
-    <!-- let kml = omnivore.kml().addTo(map); -->
-    let kml = omnivore.kml('/assets/maps/C2C.kml')
-    .on('ready', function() {
-        map.fitBounds(kml.getBounds());
-    })
-    .addTo(map);
-
-
-</script>
-
-
-
-<div class = "outer-flex-container">
-
-<section class = "description">
-My audiovisual practice is informed by...
-
-contact blah@blah.com
-
-An excerpt from ....
-</section>
 
 <section class = "projects">
+  <section class = "description">
+  My audiovisual practice is informed by...
+
+  contact blah@blah.com
+
+  An excerpt from ....
+  </section>
+
 {% for entry in site.entries %}
-  <article class = "project">
+  <article class = "project" id = "{{entry.id}}">
     <a href="{{entry.url}}">
-      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}">
+      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
     </a>
     <h2 class = "project-title">{{entry.title}}</h2>
     {{entry.content}}
@@ -62,10 +37,67 @@ An excerpt from ....
   </article>
 {% endfor %}
 
-<!-- This spacer is here because otherwise the last article above doesn't
- quite line on the right with the map, somehow it wants to put a gap there-->
-<!-- <article class = "spacer"></article> -->
-
 </section>
-</div>
+
+<script type="text/javascript">
+    let api_key = "9d825669-7c09-49be-89eb-1f4c8a50861d";
+    let Stamen_Toner = L.tileLayer(`https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
+    subdomains: 'abcd',
+    minZoom: 0,
+    maxZoom: 20,
+    ext: 'png'
+    });
+
+    let Alidade_Smooth = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
+    subdomains: 'abcd',
+    minZoom: 0,
+    maxZoom: 20,
+    ext: 'png'
+    });
+
+    let Alidade_Smooth_Greyscale = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
+    subdomains: 'abcd',
+    minZoom: 0,
+    maxZoom: 20,
+    ext: 'png',
+    className: 'alidade_smooth_greyscale'
+    });
+
+    var maps = {
+    "Stamen Toner": Stamen_Toner,
+    "Alidade Smooth" : Alidade_Smooth,
+    "Alidade Smooth (greyscale)" : Alidade_Smooth_Greyscale,
+    };
+
+
+    let map = L.map('banner-map', {attributionControl: false, zoomControl: false})
+      .setView({'lat': 51.50918512396602, 'lng': -0.12824427831868365}, 10);
+    
+    map.addLayer(Alidade_Smooth_Greyscale);   
+    let layerControl = L.control.layers(maps).addTo(map);
+
+    let layers = {};
+    let customLayer, section, filetype;
+    let omnivore_loaders = {"kml" : omnivore.kml, "gpx" : omnivore.gpx};
+
+    {% for entry in site.entries %}
+      {% if entry.kml %}
+      customLayer = L.geoJson(null, {
+        style: function(feature) {
+            return { color: '{{entry.color}}' };
+        }
+      });
+      filetype = "{{entry.kml}}".split(".").slice(-1);
+      layers["{{entry.id}}"] = omnivore_loaders[filetype]('{{entry.kml}}', null, customLayer).addTo(map);
+
+      section = document.getElementById("{{entry.id}}");
+      section.onmouseover = (e) => {
+        map.fitBounds(layers["{{entry.id}}"].getBounds());
+      }
+
+      {% endif%}
+    {% endfor %}
+
+
+</script>
 
