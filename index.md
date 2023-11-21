@@ -13,17 +13,17 @@ head: |
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
 ---
-# Monty Williams // MA Music (Audiovisual Cultures)
+# Audiovisual Projects
 
 <div id="banner-map" class="map"></div>
 
 <section class = "projects">
   <section class = "description">
-  My audiovisual practice is informed by...
 
-  contact blah@blah.com
+A selection of projects I undertook while studying on the [Audiovisual Cultures][website] programme at Goldsmiths between 2021-23.
 
-  An excerpt from ....
+[website]: https://www.gold.ac.uk/pg/ma-music-audiovisual-cultures/
+
   </section>
 
 {% for entry in site.entries %}
