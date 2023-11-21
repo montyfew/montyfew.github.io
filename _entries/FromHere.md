@@ -1,7 +1,6 @@
 ---
 title: | 
-    Ethnographic Film and Music Research
-    'From Here'
+    From Here
 
 color: green
 

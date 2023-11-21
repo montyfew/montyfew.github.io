@@ -1,7 +1,6 @@
 ---
 title: | 
-    Audiovisual Composition
-    'Serpentine'
+    Serpentine
 
 color: yellow
 

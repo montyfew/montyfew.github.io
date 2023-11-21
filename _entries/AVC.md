@@ -1,7 +1,6 @@
 ---
 title: | 
-    Audiovisual Cultures
-    'Rhythms of the City'
+    Rhythms of the City
 
 color: orange
 kml: /assets/maps/C2C.kml

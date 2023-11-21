@@ -1,7 +1,6 @@
 ---
 title: | 
-    Major Project
-    'Audiovisual Explorations of London'
+    Audiovisual Explorations of London
 
 color: blue
 

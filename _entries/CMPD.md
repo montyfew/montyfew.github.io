@@ -1,7 +1,6 @@
 ---
 title: | 
-    Contemporary Music: Practice and Discourse
-    'Mapping Place / Assemblage'
+    Mapping Place and Assemblage
 
 
 color: red
