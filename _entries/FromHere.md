@@ -3,6 +3,7 @@ title: |
     From Here
 
 color: green
+kml: /assets/maps/from-here.kml
 
 image:
     src: /assets/images/FromHere.jpg

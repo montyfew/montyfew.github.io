@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>AV Cultures</name>
+    <Style id="icon-1739-757575-nodesc-normal">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-757575-nodesc-highlight">
+      <IconStyle>
+        <color>ff757575</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-757575-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-757575-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-757575-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>A Slice of Reality</name>
+      <styleUrl>#icon-1739-757575-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.0003111,51.5041547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wick Bridge</name>
+      <styleUrl>#icon-1739-757575-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.0278049,51.5424247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Victoria Coach Station</name>
+      <styleUrl>#icon-1739-757575-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -0.1481615,51.4925005,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

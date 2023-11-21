@@ -4,7 +4,7 @@ title: |
 
 
 color: red
-kml: /assets/maps/route.gpx
+kml: /assets/maps/cmpd.kml
 
 image:
     src: /assets/images/CMPD.jpg
