@@ -24,6 +24,8 @@ body {
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
+
+    font-size: 0.9em;
     
 }
 
@@ -42,6 +44,7 @@ h1 {
     font-size: 1.5em;
 }
 
+
 .map {
     width: 100%;
     height: 300px;
@@ -50,7 +53,7 @@ h1 {
   }
 
 section.description {
-    width: 250px;
+    width: 200px;
     // height: fit-content;
     flex-grow: 1;
     padding: 1em;
@@ -74,12 +77,13 @@ section.music {
 }
 
 article.project {
-    width: 250px;
+    width: 200px;
     flex-grow: 0;
 
     h2 {
         font-size: 1em;
         margin-top: 0.3em;
+        font-style: italic;
     }
 
     img {
