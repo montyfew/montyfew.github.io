@@ -29,6 +29,12 @@ body {
     
 }
 
+a {
+    // text-decoration: none;
+    color: unset;
+    // font-style: italic;
+}
+
 .alidade_smooth_greyscale {
     filter: grayscale(1);
 }

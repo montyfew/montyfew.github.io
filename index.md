@@ -18,7 +18,7 @@ head: |
 <div id="banner-map" class="map"></div>
 
 <section class = "projects">
-  <section class = "description">
+  <section class = "description" markdown="1">
 
 A selection of projects I undertook while studying on the [Audiovisual Cultures][website] programme at Goldsmiths between 2021-23.
 
