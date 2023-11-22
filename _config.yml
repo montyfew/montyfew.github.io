@@ -5,6 +5,12 @@ collections:
     output: true
   music:
     output: true
+  vj:
+    output: true
+  radio:
+    output: true
+  videography:
+    output: true
 
 defaults:
   - scope:

@@ -1,17 +1,6 @@
 ---
 title: AV Projects
 layout: default
-head: | 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""/>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""></script>
-
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-
 ---
 # Audiovisual Projects
 
@@ -80,7 +69,7 @@ A selection of projects I undertook while studying on the [Audiovisual Cultures]
     let customLayer, section, filetype;
     let omnivore_loaders = {"kml" : omnivore.kml, "gpx" : omnivore.gpx};
 
-    {% for entry in site.entries %}
+    {% for entry in site.av_projects %}
       {% if entry.kml %}
       customLayer = L.geoJson(null, {
         style: function(feature) {
