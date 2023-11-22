@@ -1,12 +1,14 @@
 host: 0.0.0.0
 
 collections:
-  entries:
+  av_projects:
+    output: true
+  music:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "entries"
+      type: "av_projects"
     values:
       layout: "entry"

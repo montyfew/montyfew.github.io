@@ -65,6 +65,14 @@ section.projects {
     gap: 1em; // gap between adjacent images
 }
 
+section.music {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; // flow images to next line on small screens
+    gap: 2em; // gap between adjacent images
+}
+
 article.project {
     width: 250px;
     flex-grow: 0;

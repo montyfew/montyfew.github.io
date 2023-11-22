@@ -1,5 +1,5 @@
 ---
-title: Monty Williams - Home
+title: Music
 layout: default
 head: | 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -13,7 +13,14 @@ head: |
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
 ---
-# Home page
 
-[AV Projects](/av_projects)
-[Music](/music)
+<section class = "music">
+{% for entry in site.music %}
+  <article class = "project" id = "{{entry.id}}">
+    <a href="{{entry.url}}">
+      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
+    </a>
+    <!-- <h2 class = "project-title">{{entry.title}}</h2> -->
+  </article>
+{% endfor %}
+</section>
