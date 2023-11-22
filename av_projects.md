@@ -1,9 +1,7 @@
 ---
-title: AV Projects
+title: Audiovisual <br> Projects
 layout: default
 ---
-# Audiovisual Projects
-
 <div id="banner-map" class="map"></div>
 
 <section class = "projects">

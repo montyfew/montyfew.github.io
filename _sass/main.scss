@@ -21,7 +21,7 @@ body {
 
     max-width: 1700px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
 
@@ -42,6 +42,21 @@ a {
 h1 {
     text-align: center;
     font-size: 1.5em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+    h1 {
+        text-align: right;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -74,6 +89,19 @@ section.music {
     justify-content: center;
     flex-wrap: wrap; // flow images to next line on small screens
     gap: 2em; // gap between adjacent images
+}
+
+section.vj {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em; // gap between adjacent images
+
+    article {
+        // display: flex;
+        flex-direction: row;
+    }
 }
 
 article.project {
