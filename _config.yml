@@ -17,4 +17,9 @@ defaults:
       path: ""
       type: "av_projects"
     values:
-      layout: "entry"
+      layout: "av_project"
+  - scope:
+      path: ""
+      type: "videography"
+    values:
+      layout: "video"

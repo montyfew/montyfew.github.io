@@ -1,15 +1,4 @@
 ---
-title: Monty Williams - Home
+title: Monty <br> Williams
 layout: default
 ---
-# Home page
-
-[AV Projects](/av_projects)
-
-[Music](/music)
-
-[Radio](/radio)
-
-[VJing](/vj)
-
-[Videography](/videography)

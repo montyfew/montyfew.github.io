@@ -1,5 +1,7 @@
 @import "entries";
 @import "maps";
+@import "header";
+@import "videography";
 
 $font_stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 $title_font_stack: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif", HelveticaNeue-CondensedBlack;
@@ -12,8 +14,10 @@ $title_font_stack: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "
 }
 
 html {
-    width: 100%;
+    width: 100svw;
     scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -21,7 +25,7 @@ body {
     background: #222; // background color
 
     max-width: 1700px;
-    margin: auto;
+    width:100%;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
@@ -37,22 +41,6 @@ a { // Get rid of the blue color of links.
 h1 {
     text-align: center;
     font-size: 1.5em;
-}
-
-// Styles for things in the navbar and main title
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
-    margin-bottom: 1em;
-    h1 {
-        text-align: right;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 section.description {

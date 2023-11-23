@@ -1,0 +1,31 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+
+    hr {
+        align-self: stretch;
+        border-left: solid 3px white;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        text-align: right;
+        width: 100%;
+
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

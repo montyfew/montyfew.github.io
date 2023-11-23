@@ -1,15 +1,17 @@
 ---
-title: Music
+title: Videography
 layout: default
 ---
 
-<section class = "music">
-{% for entry in site.music %}
-  <article class = "project" id = "{{entry.id}}">
+<section class = "videography">
+{% for entry in site.videography %}
+  <article id = "{{entry.id}}">
+    <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
     <a href="{{entry.url}}">
-      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
+    <section class = "overlay">
+      <h2 class = "project-title">{{entry.title}}</h2>
+    </section>
     </a>
-    <!-- <h2 class = "project-title">{{entry.title}}</h2> -->
   </article>
 {% endfor %}
 </section>
