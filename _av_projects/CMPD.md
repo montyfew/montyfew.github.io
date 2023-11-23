@@ -2,8 +2,6 @@
 title: | 
     Mapping Place and Assemblage
 
-
-color: red
 kml: /assets/maps/cmpd.kml
 
 image:

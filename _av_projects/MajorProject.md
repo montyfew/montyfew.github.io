@@ -1,8 +1,7 @@
 ---
 title: | 
     Audiovisual Explorations of London
-
-color: blue
+    
 kml: /assets/maps/C2C.kml
 
 image:

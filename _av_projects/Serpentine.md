@@ -2,7 +2,6 @@
 title: | 
     Serpentine
 
-color: yellow
 kml: /assets/maps/serpentine.kml
 
 image:

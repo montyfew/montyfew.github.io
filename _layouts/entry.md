@@ -2,64 +2,21 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-
 <div id="banner-map" class="map"></div>
 
 {{ content }}
 
-<script type="text/javascript">
-    let api_key = "9d825669-7c09-49be-89eb-1f4c8a50861d";
-    let Stamen_Toner = L.tileLayer(`https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png'
-    });
+<script type="module">
+    import {defaultMap, customGeojsonStyles, omnivoreLoaders} from "/assets/js/maps.js";
 
-    let Alidade_Smooth = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png'
-    });
+    // define the maps using code from /assets/js/maps.js
+    let map = defaultMap();
 
-    let Alidade_Smooth_Greyscale = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png',
-    className: 'alidade_smooth_greyscale'
-    });
-
-    var maps = {
-    "Stamen Toner": Stamen_Toner,
-    "Alidade Smooth" : Alidade_Smooth,
-    "Alidade Smooth (greyscale)" : Alidade_Smooth_Greyscale,
-    };
-
-
-    let map = L.map('banner-map', {attributionControl: false, zoomControl: false})
-      .setView({'lat': 51.50918512396602, 'lng': -0.12824427831868365}, 10);
-    
-    map.addLayer(Alidade_Smooth_Greyscale);   
-    let layerControl = L.control.layers(maps).addTo(map);
-
-    let omnivore_loaders = {"kml" : omnivore.kml, "gpx" : omnivore.gpx};
-
-    {% if page.kml %}
-    customLayer = L.geoJson(null, {
-    style: function(feature) {
-        return { color: '{{page.color}}' };
-    }
-    });
-    let filetype = "{{page.kml}}".split(".").slice(-1);
-    let layer = omnivore_loaders[filetype]('{{page.kml}}', null, customLayer).on('ready',
-     function() {
-      map.fitBounds(layer.getBounds(), {padding: [50,50]});
-    }).addTo(map);
-
-    {% endif%}
-
-
+      {% if page.kml %}
+      let customLayer = customGeojsonStyles();
+      let filetype = "{{page.kml}}".split(".").slice(-1); // Figure out if it's a kml or gpx file
+      let layer = omnivoreLoaders[filetype]('{{page.kml}}', null, customLayer) //Load the file and style it
+          .on('ready', () => map.fitBounds(layer.getBounds(), {padding: [50,50]})) // zoom the map once the file has loaded 
+          .addTo(map); // Add the layer to the map
+      {% endif%}
 </script>

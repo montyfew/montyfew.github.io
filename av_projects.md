@@ -1,6 +1,7 @@
 ---
 title: Audiovisual <br> Projects
 layout: default
+# head: <script>
 ---
 <div id="banner-map" class="map"></div>
 
@@ -16,7 +17,7 @@ A selection of projects I undertook while studying on the [Audiovisual Cultures]
 {% for entry in site.av_projects %}
   <article class = "project" id = "{{entry.id}}">
     <a href="{{entry.url}}">
-      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
+      <img src="{{entry.image.src}}" alt="{{entry.image.alt}}">
     </a>
     <h2 class = "project-title">{{entry.title}}</h2>
     {{entry.content}}
@@ -26,60 +27,26 @@ A selection of projects I undertook while studying on the [Audiovisual Cultures]
 
 </section>
 
-<script type="text/javascript">
-    let api_key = "9d825669-7c09-49be-89eb-1f4c8a50861d";
-    let Stamen_Toner = L.tileLayer(`https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png'
-    });
+<script type="text/javascript" type="module">
+    import {defaultMap, customGeojsonStyles} from "/assets/js/maps.js";
 
-    let Alidade_Smooth = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png'
-    });
-
-    let Alidade_Smooth_Greyscale = L.tileLayer(`https://tiles-eu.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png?api_key=${api_key}`, {
-    subdomains: 'abcd',
-    minZoom: 0,
-    maxZoom: 20,
-    ext: 'png',
-    className: 'alidade_smooth_greyscale'
-    });
-
-    var maps = {
-    "Stamen Toner": Stamen_Toner,
-    "Alidade Smooth" : Alidade_Smooth,
-    "Alidade Smooth (greyscale)" : Alidade_Smooth_Greyscale,
-    };
-
-
-    let map = L.map('banner-map', {attributionControl: false, zoomControl: false})
-      .setView({'lat': 51.50918512396602, 'lng': -0.12824427831868365}, 10);
-    
-    map.addLayer(Alidade_Smooth_Greyscale);   
-    let layerControl = L.control.layers(maps).addTo(map);
+    // define the maps using code from /assets/js/maps.js
+    let map = defaultMap();
 
     let layers = {};
-    let customLayer, section, filetype;
+    let customLayer, section, filetype, onEachFeature;
     let omnivore_loaders = {"kml" : omnivore.kml, "gpx" : omnivore.gpx};
 
     {% for entry in site.av_projects %}
       {% if entry.kml %}
-      customLayer = L.geoJson(null, {
-        style: function(feature) {
-            return { color: '{{entry.color}}' };
-        }
-      });
-      filetype = "{{entry.kml}}".split(".").slice(-1);
-      layers["{{entry.id}}"] = omnivore_loaders[filetype]('{{entry.kml}}', null, customLayer).addTo(map);
+      section = document.getElementById("{{entry.id}}"); // Get the section associated with this kml file
+      customLayer = customGeojsonStyles(section.querySelector("img")); // Pass that to the styles so we can set hover effects
+      filetype = "{{entry.kml}}".split(".").slice(-1); // Figure out if it's a kml or gpx file
+      layers["{{entry.id}}"] = omnivore_loaders[filetype]('{{entry.kml}}', null, customLayer) //Load the file and style it
+        .addTo(map); // Add the layer to the map
 
-      section = document.getElementById("{{entry.id}}");
-      section.onmouseover = (e) => {
-        map.fitBounds(layers["{{entry.id}}"].getBounds(), {padding: [50,50]});
+      section.onmouseover = (e) => { // When the section is hovered, center the associated maps points
+        map.flyToBounds(layers["{{entry.id}}"].getBounds(), {padding: [50,50]});
       }
 
       {% endif%}

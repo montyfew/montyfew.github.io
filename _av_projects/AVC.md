@@ -2,7 +2,6 @@
 title: | 
     Rhythms of the City
 
-color: orange
 kml: /assets/maps/rhythms.kml
 
 image:

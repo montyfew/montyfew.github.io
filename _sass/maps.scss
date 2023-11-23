@@ -1,0 +1,23 @@
+// This file is for styles related to maps, mainly on the AV page
+
+.map {
+    width: 100%;
+    height: 300px;
+    border: 1px white solid; //single pixel wide white border
+    margin-bottom: 1em; // gap between map and images below
+  }
+
+// Apply filters to the different maps, in this case make alidade greyscale
+.alidade_smooth_greyscale {
+    filter: grayscale(1) invert(1) brightness(2);
+}
+// Reduce the contrast on stamen toner to make the background less black and the foreground less white.
+.stamen_toner {
+    filter: invert(1) contrast(0.6) brightness(0.6) ;
+}
+
+
+// This sets the background of the little toggle in the top right of the map to the background color
+.leaflet-control-layers-toggle {
+    background-color: #222;
+}
