@@ -3,7 +3,7 @@ title: 8 Landscapes
 
 image:
     src: /assets/music/8_Landscapes.jpg
-    alt: A fragmented image of a nighttime view from Greenwich Peninsula to Canary Wharf
+    alt: a long exposure night time photograph across the Sheffield hills
 ---
 
 released August 29, 2020
