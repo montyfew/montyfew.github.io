@@ -1,7 +1,7 @@
 ---
 title: 8 Landscapes
 
-track_folder: assets/mp3s/8 Landscapes/
+track_folder: /assets/mp3s/8 Landscapes
 tracks:
   - name: Window at Night
     src: 01 Window at Night Master v2.mp3
@@ -37,8 +37,8 @@ Mixed and mastered by Adam Zejma at Tye Die Tapes, Sheffield.
 
 {% for track in page.tracks %}
 {{track.name}}
-<audio controls src="{{track.src}}">
-    <a href="{{track.src}}"> Download audio </a>
+<audio controls src="{{page.track_folder | uri_escape}}/{{track.src | uri_escape}}">
+    <a href="{{page.track_folder | uri_escape}}/{{track.src | uri_escape}}"> Download audio </a>
 </audio>
 {% endfor %}
 
