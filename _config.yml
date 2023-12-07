@@ -28,3 +28,8 @@ defaults:
       type: "music"
     values:
       layout: "music"
+  - scope:
+      path: ""
+      type: "radio"
+    values:
+      layout: "radio"
