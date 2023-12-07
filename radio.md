@@ -4,7 +4,7 @@ layout: default
 ---
 
 <section class = "music">
-{% for entry in site.music %}
+{% for entry in site.radio %}
   <article class = "project" id = "{{entry.id}}">
     <a href="{{entry.url}}">
       <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
