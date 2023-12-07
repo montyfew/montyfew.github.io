@@ -33,3 +33,8 @@ defaults:
       type: "radio"
     values:
       layout: "radio"
+  - scope:
+      path: ""
+      type: "vj"
+    values:
+      layout: "vj"
