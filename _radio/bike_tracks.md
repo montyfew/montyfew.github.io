@@ -3,7 +3,7 @@ title: |
     Bike Tracks
 
 image:
-    src: /assets/radio/bike_tracks.jpg
+    src: /assets/radio/bike_tracks.png
     alt: Monty and Mo standing by their bicycles
 ---
 
