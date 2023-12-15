@@ -31,7 +31,15 @@ body {
     padding-right: 50px;
 
     font-size: 0.9em; //overall font size
-    
+    margin: 0;
+    min-height: 100vmin;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 a { // Get rid of the blue color of links.
@@ -57,26 +65,38 @@ section.projects {
     gap: 1em; // gap between adjacent images
 }
 
-section.music {
+section.music, section.vj {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap; // flow images to next line on small screens
     gap: 2em; // gap between adjacent images
+    
+    // uncomment these to center the items vertically
+    // align-content: center;
+    // height: 100%;
 }
 
-section.vj {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2em; // gap between adjacent images
-
-    article {
-        // display: flex;
-        flex-direction: row;
-    }
-}
+// Could consider a grid instead
+// section.music, section.vj {
+//     /**
+//      * User input values.
+//      */
+//     --grid-layout-gap: 10px;
+//     --grid-column-count: 10;
+//     --grid-item--min-width: 200px;
+  
+//     /**
+//      * Calculated values.
+//      */
+//     --gap-count: calc(var(--grid-column-count) - 1);
+//     --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+//     --grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+  
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
+//     grid-gap: var(--grid-layout-gap);
+//   }
 
 article.project {
     width: 200px;
