@@ -13,6 +13,6 @@ South London Loops live:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7dePGHH5b94?si=WUDkKGFaka9tQACD&amp;start=640" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-A sonic bedrock for [Rhythms of the City][website].
+These compositions formed a sonic bedrock for [Rhythms of the City][website].
 
 [website]: https://montyfew.github.io/av_projects/AVC.html
