@@ -1,6 +1,6 @@
 ---
 title: | 
-    Spike - 'Out of the Blue (Lagoon)'
+    Spike
 
 image:
     src: /assets/vjing/spike.png
