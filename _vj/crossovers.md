@@ -3,7 +3,7 @@ title: |
     Crossovers Collective
 
 image:
-    src: /assets/vjing/crossovers.jpeg
+    src: /assets/vjing/crossovers.png
     alt: a projected image of long exposure photographs with silhouettes of performers in the foreground
 ---
 A layered process:
