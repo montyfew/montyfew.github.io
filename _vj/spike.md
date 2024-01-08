@@ -1,9 +1,9 @@
 ---
 title: | 
-    Spike - 'Out of the Blue (Lagoon)'
+    Spike
 
 image:
-    src: /assets/vjing/spike.png
+    src: /assets/vjing/spike_crop.png
     alt: a silhouetted figure viewed through a multicoloured iPhone video interface
 ---
 
