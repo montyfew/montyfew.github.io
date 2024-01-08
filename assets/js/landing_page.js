@@ -1,6 +1,6 @@
 const links = [...document.querySelectorAll('header a')];
 const header = document.querySelector('header');
-console.log(links);
+
 links.map(a => {
   a.onclick = (e) => {
     const a = e.srcElement;
@@ -11,4 +11,8 @@ links.map(a => {
         window.location.href = a.href
     }, 1000)
   }
-})
+});
+
+onpageshow = (event) => {
+    header.classList.remove('top');
+};
