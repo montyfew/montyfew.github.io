@@ -1,6 +1,8 @@
 ---
 title: 8 Landscapes
 
+head: <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
+
 track_folder: /assets/mp3s/8 Landscapes
 tracks:
   - name: Window at Night
@@ -26,20 +28,9 @@ image:
     src: /assets/music/8_Landscapes.jpg
     alt: a long exposure night time photograph across the Sheffield hills
 ---
-
-Mono Works: 2020
-
+Mono Works: 2020 \\
 Additional vocals on 'A Folk Song of the Club' by [A Paranoid King][website].
-
 Mixed and mastered by Adam Zejma at [Tye Die Tapes][website2], Sheffield.
 
 [website]: https://aparanoidking.bandcamp.com/
 [website2]: https://tyedietapes.bandcamp.com/
-
-{% for track in page.tracks %}
-{{track.name}}
-<audio controls src="{{page.track_folder | uri_escape}}/{{track.src | uri_escape}}">
-    <a href="{{page.track_folder | uri_escape}}/{{track.src | uri_escape}}"> Download audio </a>
-</audio>
-{% endfor %}
-

@@ -4,7 +4,6 @@ const header = document.querySelector('header');
 links.map(a => {
   a.onclick = (e) => {
     const a = e.srcElement;
-    console.log(a);
     e.preventDefault();
     header.classList.add('top');
     setTimeout(function() { 
@@ -14,5 +13,6 @@ links.map(a => {
 });
 
 onpageshow = (event) => {
+    console.log(event);
     header.classList.remove('top');
 };

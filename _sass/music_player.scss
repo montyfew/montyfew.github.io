@@ -1,0 +1,88 @@
+.amplitude-active-song-container, .amplitude-song-container:hover {
+    color: rgb(213, 139, 0);
+}
+
+section.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+}
+
+.music_player, .tracks, .notes {
+    border: 1px solid rgba(128, 128, 128, 0.313);
+    border-radius: 5px;
+
+    flex: 1 1 300px;
+    // max-width: 500px;
+}
+.tracks, .notes {
+    h2 { margin-top: 0;}
+    padding: 0.5em;
+}
+
+.music_player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    div.progress-bar  {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        height: 50px;
+    }
+        
+    img.song-thumbnail {
+        width: 100%; 
+        margin: auto;
+        margin-bottom: 0.5em;
+    }
+
+    p.artist-album {
+        margin: 0.5em;
+        font-size: 0.8rem;
+    }
+
+    div.amplitude-wave-form {
+        stroke: white; 
+    }
+    
+    input[type=range] {
+        -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+        width: 100%; /* Specific width is required for Firefox. */
+        background: transparent; /* Otherwise white in Chrome */
+        color: white;
+    
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 15px;
+        transform: translate(0, -50%);
+        width: 5px;
+        background: #ffffff;
+        cursor: pointer;
+        margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+    }
+    
+    /* All the same stuff for Firefox */
+    input[type=range]::-moz-range-thumb {
+        height: 15px;
+        transform: translate(0, -50%);
+        width: 5px;
+        background: #ffffff;
+        cursor: pointer;
+        margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+        box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+    }
+
+}
