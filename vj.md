@@ -2,6 +2,10 @@
 title: VJing
 layout: default
 ---
+<section class = "centered">
+Statement of practice.
+</section>
+<br>
 
 <section class = "vj">
 {% for entry in site.vj %}

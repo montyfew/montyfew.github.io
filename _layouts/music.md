@@ -3,7 +3,8 @@ layout: default
 ---
 {% if page.tracks %}
 <section class="cards">
-<div class="music_player">
+
+<section class="music_player">
     <img class="song-thumbnail" data-amplitude-song-info="cover_art_url"/>
     <span data-amplitude-song-info="name"></span>
     <p class="artist-album"><span data-amplitude-song-info="artist"></span> - <span data-amplitude-song-info="album"></span></p>
@@ -16,7 +17,7 @@ layout: default
         <span class="amplitude-prev">Previous</span>
         <span class="amplitude-next">Next</span>
     </p>
-</div>
+</section>
 
 <section class = "tracks">
 <h2> Tracks </h2>

@@ -39,6 +39,7 @@ body {
     flex-direction: column;
 }
 
+
 main {
     flex-grow: 1;
 }
@@ -76,6 +77,39 @@ section.music, section.vj {
     // uncomment these to center the items vertically
     // align-content: center;
     // height: 100%;
+}
+
+section.centered {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    iframe {
+        flex-basis: 500px;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+
+    section.text {
+        padding: 1em;
+        flex-basis: 500px;
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+}
+
+section.narrow {
+    max-width: 500px;
+    margin: auto;
+
+    iframe {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    img {
+        width: 100%;
+    }
+
 }
 
 // Could consider a grid instead
