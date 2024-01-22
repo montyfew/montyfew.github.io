@@ -1,9 +1,9 @@
 ---
-title: VJing
+title: Live Visuals
 layout: default
 ---
 <section class = "centered">
-Statement of practice.
+A series of collaborations where I have created live visuals for other artists, guided by their sonic worlds.
 </section>
 <br>
 
