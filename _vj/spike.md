@@ -6,17 +6,30 @@ image:
     src: /assets/vjing/spike_crop.png
     alt: a silhouetted figure viewed through a multicoloured iPhone video interface
 ---
+<section class = "narrow" markdown=1>
+
+<section class = "centered">
+<iframe src="https://player.vimeo.com/video/905537806?h=f36f0a868a&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+Working with [Spike][website] began with the notion of video feedback, processed through my VJ software. We tested this approach in the studio and a first live show at [Spanners][website2], culminating in a creation of a music video which sits somewhere between live documentation and processed imagery. We wrote a bit more about it for [Sonic Scope][website3] journal.
+
+Building on this process, a second live outing for [Crossovers Collective][website4] allowed us to explore the live possibilites of this setup further. In this collaboration we were able to visualise a new environment by processing the live image, responding to the rhythms and atmospheres of Spike's music.
+
+Photography by [Colton Kempf][website5].
+
+[website]: https://spike.bandcamp.com/
+[website2]: https://www.spanners.club/
+[website3]: https://www.sonicscope.org/pub/yepw3ffw/release/1
+[website4]: https://linktr.ee/crossovers.collective
+[website5]: https://www.coltonkempf.com/
+
+</section>
+
 <section class = "narrow" markdown = 1>
 <section class = "centered">
-<img src="/assets/vjing/spike.png" alt="a silhouetted figure viewed through a multicoloured iPhone video interface">
+<img src="/assets/vjing/spike2.JPG" alt="a long exposure photo of Spike performing in front of video feedback">
 </section>
-[Out of the Blue (Lagoon)][website]
 
-The creation of this music video began as a live duet between myself and Spike, experimenting with video feedback being processed through my VJ software. Initially the iPhone’s video function was used as it was all I had access to, however we quickly became interested in exposing its familiar interface as part of the performance.
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2349414977/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/artwork=small/track=3138709577/transparent=true/" seamless><a href="https://spike.bandcamp.com/album/spike">SPIKE by Spike</a></iframe>
 
-Documenting our live process became excitingly threefold, incorporating footage from the room, the footage which the iPhone captured and finally the processed footage within my VJ software. Similarly, we became interested in the three live spaces our performance occupied: within the room itself, the projected image in the room and finally music video’s virtual space. The music video also plays with two temporal spaces, that of the iPhone interface and that of the music video itself.
-
-What became so fascinating as our duet developed were the layers upon layers which had emerged through this collaboration, with video feedback at its core. This video moves from our live documentation into a third virtual space, somewhere between real and mythical.
-
-[website]: https://www.sonicscope.org/pub/yepw3ffw/release/1
-</section>
