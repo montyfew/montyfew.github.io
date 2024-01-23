@@ -9,7 +9,7 @@ image:
 
 <section class = "narrow" markdown = 1>
 <section class = "centered">
-<img src="{{page.image.src}}" alt="{{page.image.alt}}">
+<img src="/assets/vjing/yiskah_gao.jpeg" alt="a photo from a live show featuring Yiskāh's sounds, Gao's performance art and Monty's live visuals">
 </section>
 A collaboration with sonic artist [Yiskāh][website] and performance artist [Shuyi Gao][website2]. Our performance fused atmospheric sounds, improvised dance and live video for Crossovers Collective in March 2023.
 

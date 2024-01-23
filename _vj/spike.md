@@ -8,7 +8,7 @@ image:
 ---
 <section class = "narrow" markdown = 1>
 <section class = "centered">
-<img src="{{page.image.src}}" alt="{{page.image.alt}}">
+<img src="/assets/vjing/spike.png" alt="a silhouetted figure viewed through a multicoloured iPhone video interface">
 </section>
 [Out of the Blue (Lagoon)][website]
 
