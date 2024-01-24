@@ -3,12 +3,12 @@ title: Degredation
     
 
 image:
-    src: /assets/vjing/degredation_crop.png
+    src: /assets/vjing/degredation_crop.jpeg
     alt: a black and white photograph showing the Degredation duo playing in front of Monty's Thames Estuary visuals
 ---
 <section class = "narrow" markdown = 1>
 <section class = "centered">
-<img src="/assets/vjing/degredation.png" alt="a black and white photograph showing the Degredation duo playing in front of Monty's Thames Estuary visuals">
+<img src="/assets/vjing/degredation.jpeg" alt="a black and white photograph showing the Degredation duo playing in front of Monty's Thames Estuary visuals">
 </section>
 
 An impromptu collaboration with [Degredation][website] band, degrading some of my own footage taken while cycling alongside the Thames Estuary towards Kent. This footage was part of the formative stages of my [Audiovisual Exploration of London][website2].
