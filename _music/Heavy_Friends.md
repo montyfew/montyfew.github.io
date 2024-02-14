@@ -1,6 +1,19 @@
 ---
 title: Heavy Friends
 
+head: <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
+
+track_folder: /assets/mp3s/Heavy_Friends
+tracks:
+  - name: A Paranoid King - Strange Garden
+    src: Strange_Garden.mp3
+  - name: Ed Freeth - Flowers
+    src: Flowers.mp3
+  - name: Mono Works - 47
+    src: 47.mp3
+  - name: Emergency Ration Ensemble - I Took a Trip (On a Salopian Spaceship)
+    src: I_Took_a_Trip.mp3
+
 image:
     src: /assets/music/Heavy_Friends.jpg
     alt: a hand drawn collage of an imagined English landscape by Charlie Adams
@@ -16,14 +29,23 @@ Recorded in Salop, London and Sheffield.
 Track 1 feat. Anna Rocchi on guest vox.
 Track 4 feat. Freya Cunningham on french horn.
 Tracks 1, 2 feat. Emergency Ration Ensemble on drums.
-Tracks 2, 3 mixed by Adam Zejma at Tye Die Tapes, Sheffield.
+Tracks 2, 3 mixed by Adam Zejma at [Tye Die Tapes][website], Sheffield.
 
-Mastered by Owain Fleetwood Jenkins at StudiOwz, Clarbeston.
+Mastered by Owain Fleetwood Jenkins at [StudiOwz][website2], Clarbeston.
 
-Art by Charlie Adams - IG @charlie.adams.194
+Artwork by [Charlie Adams][website3].
 
-Checkout the other friends at:
+Heavy Friends are:
 
-aparanoidking.bandcamp.com
-edfreeth.bandcamp.com
-emergency-ration-ensemble.bandcamp.com
+[A Paranoid King][website4]
+[Ed Freeth][website5]
+
+Mono Works
+[Emergency Ration Ensemble][website6]
+
+[website]: https://tyedietapes.bandcamp.com/
+[website2]: https://studiowz.co.uk/
+[website3]: https://www.instagram.com/charlie.adams.194/
+[website4]: https://aparanoidking.bandcamp.com/
+[website5]: https://edfreeth.bandcamp.com/
+[website6]: https://emergency-ration-ensemble.bandcamp.com/

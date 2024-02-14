@@ -5,6 +5,10 @@ image:
     src: /assets/music/Voice_Memos_Blakeney_Demos.jpg
     alt: a long exposure photograph showing the reflected lights of a sample pad in a window at night
 ---
+<section class = "centered">
+<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=4006707959/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://outdoorscene.bandcamp.com/album/voice-memos-blakeney-demos">Voice Memos // Blakeney Demos by Outdoor Scene</a></iframe>
+</section>
+<section class = "narrow" markdown=1>
 As the Summer of 2017 drew to and end, Outdoor Scene began the shift from a two-piece guitar and drums project to it's current solo form.
 
 During the winter months, I experimented with layers of guitar and vocals hewn roughly in Audacity. The tentative addition of drum samples then paved the way for a new kind of live performance.
@@ -28,3 +32,5 @@ Piano on 'Late' by Tom Cantellow.
 Live recordings by Bart Belleudy.
 
 Mixed and mastered by Adam Zejma at Tye Die Tapes, Sheffield.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEzLrortD8?si=c2VK9u9evOHCN2EV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
