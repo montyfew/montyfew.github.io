@@ -6,8 +6,10 @@ image:
     src: /assets/radio/in_progress.png
     alt: a collage of portraits featuring Katogo and Mono Works
 ---
-
-<iframe width="50%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FFoodhallCommunityRadio%2Fmono-works-katogo-in-progress-w-mono-works-katogo-1%2F" frameborder="0" ></iframe>
+<section class = "centered">
+<iframe width="50%" height="400" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2FFoodhallCommunityRadio%2Fmono-works-katogo-in-progress-w-mono-works-katogo-1%2F" frameborder="0" ></iframe>
+</section>
+<section class = "narrow" markdown=1>
 
 Looking back to 2020 when I was joined by [Katogo][website3] to share influential tracks and the seeds of new ideas, informing our collaborative process which fused my guitars with his electronic production.
 

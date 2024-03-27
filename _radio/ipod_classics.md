@@ -6,8 +6,10 @@ image:
     src: /assets/radio/ipod_classics.png
     alt: an image of Monty inside the screen of his iPod Classic
 ---
-
+<section class = "centered">
 <iframe width="50%" height="400" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2FFoodhallCommunityRadio%2Fmonty-ipod-classics-w-monty%2F" frameborder="0" ></iframe>
+</section>
+<section class = "narrow" markdown=1>
 
 My debut show for Foodhall Community Radio, aired in August 2020.
 
