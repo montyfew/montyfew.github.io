@@ -39,6 +39,13 @@ body {
     flex-direction: column;
 }
 
+.smooth-reveal {
+    transition: opacity 700ms ease-out;
+}
+
+.smooth-reveal.hidden {
+    opacity: 0;
+}
 
 main {
     flex-grow: 1;

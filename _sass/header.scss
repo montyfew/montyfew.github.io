@@ -23,7 +23,7 @@ header {
         gap: 0.1em;
         svg {
             width: auto;
-            height: 1em;
+            height: 1.2em;
         }
 
         a.invert svg {
@@ -34,6 +34,11 @@ header {
     h1 {
         text-align: right;
         width: 100%;
+        min-height: 50px; // necessary to prevent layout shift when changing between pages with multiline titles and single line ones
+        display: flex;
+        justify-content: right; /* Align horizontal */
+        align-items: center; /* Align vertical */
+        
 
     }
     nav {

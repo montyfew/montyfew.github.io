@@ -1,14 +1,26 @@
-body {
+html {
     height: 100lvh;
     position: relative;
 }
 
-header {
+body {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
     position: absolute;
-    top: calc(33%);
+    top: calc(50%);
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+
+    display: inline-block;
+    max-width: 30em;
+    width: 100%;
+    height: unset;
+    min-height: unset;
+
     transition: all 700ms ease-out;
+
     h1 {
         opacity: 1;
         transition: opacity 700ms ease-in-out;
@@ -16,35 +28,25 @@ header {
 }
 
 section.bio {
-    max-width: 25em;
-    width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: absolute;
-    top: calc(33% + 12em);
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
     text-align: center;
-    transition: all 700ms ease-out;
 }
 
 // This gets set by js to make main zoom to the top of the page
-header.top {
+body.top {
     top: 50px;
     transform: translateY(0px) translateX(-50%);
     h1 {
         opacity: 0;
     }
-}
-
-section.bio.top {
-    opacity: 0;
+    section.bio {
+        opacity: 0;
+    }
 }
 
 @media 
     only screen and (max-width: 620px)
     {  
-    header.top {
+    body.top {
             top: 10px;
     }
 }

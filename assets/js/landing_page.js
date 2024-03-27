@@ -1,21 +1,28 @@
+// If you click on any of these links you're going to a page inside this site
+// This should trigger the heading to smoothly move up
 const links = [...document.querySelectorAll('header nav a')];
-const header = document.querySelector('header');
-const bio = document.querySelector('section.bio');
 
+// The landing page elements are all inside the body
+// which is position absolutely
+const body = document.querySelector('body');
+
+// When you click any of the links
+// 1. Add the class "top" to body to trigger the animation
+// 2. Follow the link after 1 second to complete the transition
 links.map(a => {
   a.onclick = (e) => {
     const a = e.srcElement;
     e.preventDefault();
-    header.classList.add('top');
-    bio.classList.add('top');
+    body.classList.add('top');
     setTimeout(function() { 
         window.location.href = a.href
     }, 1000)
   }
 });
 
+// On some browsers going back doesn't 
+// put the classes back to how they were
+// this is a fix for that 
 onpageshow = (event) => {
-    console.log(event);
-    header.classList.remove('top');
-    bio.classList.remove('top');
+    body.classList.remove('top');
 };

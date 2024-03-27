@@ -18,11 +18,13 @@
 
   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
 
+  <script src="/assets/js/all_pages.js" type = "module"></script>
+
   {{ page.head }}
   </head>
   <body class="{{page.class}}">
     {% include header.html %}
-    <main>
+    <main class = "smooth-reveal hidden">
         {{ content }}
     </main>
   </body>
