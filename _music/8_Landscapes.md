@@ -28,6 +28,8 @@ image:
     src: /assets/music/8_Landscapes.jpg
     alt: a long exposure night time photograph across the Sheffield hills
 ---
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1581163179/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/8-landscapes">8 Landscapes by Mono Works</a></iframe>
+
 released August 29, 2020
 
 Written and recorded by Mono Works.

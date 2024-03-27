@@ -22,6 +22,8 @@ image:
     src: /assets/music/South_of_the_North.jpg
     alt: a long exposure day time photograph across the Sheffield hills
 ---
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=691583680/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-of-the-north">South of the North by Mono Works</a></iframe>
+
 released March 11, 2022
 
 Tracks 1-3 recorded by Monty Williams at home in Sheffield from 2020-21. Additional production on ‘Ground’ by [Anti-Gravity Charlie][website].

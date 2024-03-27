@@ -18,6 +18,8 @@ image:
     src: /assets/music/Heavy_Friends.jpg
     alt: a hand drawn collage of an imagined English landscape by Charlie Adams
 ---
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2979723823/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/heavy-friends">Heavy Friends by Mono Works</a></iframe>
+
 A motley comp of wayward folk, pensive emo and cosmic disco from several heavy friends.
 
 The ancient realms of Salop, Sheffield and London are all here, breathing through each and every droned string, wallop of french horn and parched harmony.
