@@ -17,6 +17,20 @@ header {
         text-decoration: none;
     }
 
+    div.logo-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1em;
+        svg {
+            width: auto;
+            height: 1em;
+        }
+
+        a.invert svg {
+            filter: invert(1);
+        }
+
+    }
     h1 {
         text-align: right;
         width: 100%;

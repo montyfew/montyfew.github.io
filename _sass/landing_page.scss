@@ -5,7 +5,7 @@ body {
 
 header {
     position: absolute;
-    top: calc(50%);
+    top: calc(33%);
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     transition: all 700ms ease-out;
@@ -15,6 +15,19 @@ header {
     }
 }
 
+section.bio {
+    max-width: 25em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    top: calc(33% + 12em);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    transition: all 700ms ease-out;
+}
+
 // This gets set by js to make main zoom to the top of the page
 header.top {
     top: 50px;
@@ -22,6 +35,10 @@ header.top {
     h1 {
         opacity: 0;
     }
+}
+
+section.bio.top {
+    opacity: 0;
 }
 
 @media 
