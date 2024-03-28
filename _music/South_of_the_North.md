@@ -1,29 +1,14 @@
 ---
 title: South of the North
 
-head: <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
-
-track_folder: /assets/mp3s/SotN
-tracks:
-  - name: Ground
-    src: 1 Ground.mp3
-  - name: Hazy Grey
-    src: 2 Hazy Grey.mp3
-  - name: Northern Skies
-    src: 3 Northern Skies.mp3
-  - name: Intervals (live)
-    src: 4 Intervals.mp3
-  - name: Empty Vessels (live)
-    src: 5 Empty Vessels.mp3
-  - name: Map of the City (live)
-    src: 6 Map of the City.mp3
-
 image:
     src: /assets/music/South_of_the_North.jpg
     alt: a long exposure day time photograph across the Sheffield hills
 ---
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=691583680/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-of-the-north">South of the North by Mono Works</a></iframe>
-
+<section class = "centered">
+<iframe style="border: 0; width: 350px; height: 654px;" src="https://bandcamp.com/EmbeddedPlayer/album=691583680/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-of-the-north">South of the North by Mono Works</a></iframe>
+</section>
+<section class = "narrow" markdown=1>
 released March 11, 2022
 
 Tracks 1-3 recorded by Monty Williams at home in Sheffield from 2020-21. Additional production on ‘Ground’ by [Anti-Gravity Charlie][website].

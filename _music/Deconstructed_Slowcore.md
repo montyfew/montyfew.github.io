@@ -21,4 +21,6 @@ released October 9, 2017
 
 All songs written by Outdoor Scene: Monty Williams (guitar/vocals), Dougy Baldwin (drums).
 
-Recorded, mixed and mastered by Adam Zejma and Michael Aitken at Tye Die Tapes, Sheffield.
+Recorded, mixed and mastered by Adam Zejma and Michael Aitken at [Tye Die Tapes][website], Sheffield.
+
+[website]: https://tyedietapes.bandcamp.com/

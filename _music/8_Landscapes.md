@@ -1,35 +1,14 @@
 ---
 title: 8 Landscapes
 
-head: <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
-
-track_folder: /assets/mp3s/8_Landscapes
-tracks:
-  - name: Window at Night
-    src: 01 Window at Night Master v2.mp3
-  - name: Gradual Steps
-    src: 02 Gradual Steps Master v2.mp3
-  - name: Orange
-    src: 03 Orange Master v2.mp3
-  - name: Old Friend (Interlude)
-    src: 04 Old Friend Interlude Master v2.mp3
-  - name: My Friend 2
-    src: 05 My Friend 2 Master v2.mp3
-  - name: A Folk Song of the Club (feat. A Paranoid King)
-    src: 06 A Folk Song of the Club Master v2.mp3
-  - name: SD
-    src: 07 SD Master v2.mp3
-  - name: Thursdays
-    src: 08 Thursdays Master v2.mp3
-  - name: Coles Corner (Richard Hawley cover)
-    src: 09 Coles Corner Master v2.mp3
-
 image:
     src: /assets/music/8_Landscapes.jpg
     alt: a long exposure night time photograph across the Sheffield hills
 ---
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1581163179/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/8-landscapes">8 Landscapes by Mono Works</a></iframe>
-
+<section class = "centered">
+<iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1581163179/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/8-landscapes">8 Landscapes by Mono Works</a></iframe>
+</section>
+<section class = "narrow" markdown=1>
 released August 29, 2020
 
 Written and recorded by Mono Works.
