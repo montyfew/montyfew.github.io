@@ -6,8 +6,11 @@ image:
     src: /assets/radio/dj_george.png
     alt: the lights of a drum machine in soft focus
 ---
+<section class = "narrow" markdown=1>
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1485614650&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nxrecords" title="NX Records" target="_blank" style="color: #cccccc; text-decoration: none;">NX Records</a> · <a href="https://soundcloud.com/nxrecords/nx-radio-231122-mono-works-x-dj-george" title="NX Radio 23.11.22 // Mono Works x DJ George (Live Set)" target="_blank" style="color: #cccccc; text-decoration: none;">NX Radio 23.11.22 // Mono Works x DJ George (Live Set)</a></div>
+<section class = "centered">
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1485614650&color=%23080b07&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nxrecords" title="NX Records" target="_blank" style="color: #cccccc; text-decoration: none;">NX Records</a> · <a href="https://soundcloud.com/nxrecords/nx-radio-231122-mono-works-x-dj-george" title="NX Radio 23.11.22 // Mono Works x DJ George (Live Set)" target="_blank" style="color: #cccccc; text-decoration: none;">NX Radio 23.11.22 // Mono Works x DJ George (Live Set)</a></div>
+</section>
 
 Bathing in a sonic bath amongst loops and samples from the streets of London to the rivers of Philadelphia.
 
