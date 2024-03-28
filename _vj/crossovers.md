@@ -9,7 +9,7 @@ image:
 <section class = "narrow" markdown=1>
 My live visual collaborations with [Crossovers Collective][website] are layered and continual.
 
-We began with a sonic improvisation at Hypha Studios.
+We began with a sonic improvisation at Hypha Studios:
 
 <section class = "centered">
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3010750156/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://crossoverscollective.bandcamp.com/track/crossovers-live-improv-hypha-studios">CROSSOVERS live improv @ Hypha Studios by Tam Lin, Yiskāh, George Rayner-Law, Massimiliano Napoli, Monty Williams, Colton Kempf</a></iframe>
