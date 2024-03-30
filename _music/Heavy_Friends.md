@@ -1,25 +1,14 @@
 ---
 title: Heavy Friends
 
-head: <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
-
-track_folder: /assets/mp3s/Heavy_Friends
-tracks:
-  - name: A Paranoid King - Strange Garden
-    src: Strange_Garden.mp3
-  - name: Ed Freeth - Flowers
-    src: Flowers.mp3
-  - name: Mono Works - 47
-    src: 47.mp3
-  - name: Emergency Ration Ensemble - I Took a Trip (On a Salopian Spaceship)
-    src: I_Took_a_Trip.mp3
-
 image:
     src: /assets/music/Heavy_Friends.jpg
     alt: a hand drawn collage of an imagined English landscape by Charlie Adams
 ---
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2979723823/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/heavy-friends">Heavy Friends by Mono Works</a></iframe>
-
+<section class = "centered">
+<iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=2979723823/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/heavy-friends">Heavy Friends by Mono Works</a></iframe>
+</section>
+<section class = "narrow" markdown=1>
 A motley comp of wayward folk, pensive emo and cosmic disco from several heavy friends.
 
 The ancient realms of Salop, Sheffield and London are all here, breathing through each and every droned string, wallop of french horn and parched harmony.
