@@ -119,6 +119,10 @@ section.narrow {
 
 }
 
+body {
+    transition: margin-top 700ms ease-out;
+}
+
 // Could consider a grid instead
 // section.music, section.vj {
 //     /**

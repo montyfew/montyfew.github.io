@@ -1,6 +1,6 @@
 // If you click on any of these links you're going to a page inside this site
 // This should trigger the heading to smoothly move up
-const links = [...document.querySelectorAll('header nav a')];
+const links = [...document.querySelectorAll('header nav a.enter')];
 
 // The landing page elements are all inside the body
 // which is position absolutely
