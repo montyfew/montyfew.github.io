@@ -9,7 +9,9 @@ image:
 
 A selection of instrumentals written after moving to London in 2021.
 
-South London Loop #1 releases on [Black Beacon Sound][website] on 26/04/24.
+South London Loop #1 released on [Black Beacon Sound][website].
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2359821893/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=3616593982/transparent=true/" seamless><a href="https://blackbeaconsoundintl.bandcamp.com/album/sampler-part-two-bbs021ep">Sampler: Part Two [bbs021ep] by Mono Works</a></iframe>
 
 Rough mixes of loops 2-4 can be listened to below:
 
