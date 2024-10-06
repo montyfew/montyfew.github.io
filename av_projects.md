@@ -8,7 +8,7 @@ layout: default
 <section class = "projects">
   <section class = "description" markdown="1">
 
-A selection of projects I undertook while studying on the [Audiovisual Cultures][website] programme at Goldsmiths between 2021-23.
+  A selection of projects stemming from studying on the [Audiovisual Cultures][website] programme at Goldsmiths.
 
 [website]: https://www.gold.ac.uk/pg/ma-music-audiovisual-cultures/
 
