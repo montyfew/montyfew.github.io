@@ -3,6 +3,8 @@ host: 0.0.0.0
 collections:
   av_projects:
     output: true
+  av_sketches:
+    output: true
   music:
     output: true
   vj:
@@ -18,6 +20,11 @@ defaults:
       type: "av_projects"
     values:
       layout: "av_project"
+  - scope:
+      path: ""
+      type: "av_projects"
+    values:
+      layout: "music"
   - scope:
       path: ""
       type: "videography"
