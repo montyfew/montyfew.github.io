@@ -1,5 +1,11 @@
 host: 0.0.0.0
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 collections:
   av_projects:
     output: true
