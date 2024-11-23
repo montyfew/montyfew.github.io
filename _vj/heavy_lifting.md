@@ -12,10 +12,9 @@ image:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oQm2P4BCECI?si=BeQU4l0JA5Aa-c2D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
 
-<section class = "centered">
+<figure>
 <img src="/assets/vjing/heavy_lifting_table.jpg" alt="a top down photo of our laptops and equipment during performance">
-
-</section>
+</figure>
 
 An impromptu collaboration with live coder [Heavy Lifting][website] at Sheffield's [Sidney and Matilda][website2].
 
