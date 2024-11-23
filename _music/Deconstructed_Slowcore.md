@@ -1,5 +1,5 @@
 ---
-title: Deconstructed Slowcore
+title: Deconstructed <br> Slowcore
 
 image:
     src: /assets/music/Deconstructed_Slowcore.jpg
