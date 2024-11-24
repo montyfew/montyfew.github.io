@@ -21,6 +21,6 @@ head: |
 I am an audiovisual artist interested in the relationship between music and place. Through sonic explorations, film making and intermedial VJ techniques, my practice sits at the intersection of music and the moving image.
 </section>
 
-<footer>Built by <a href = "https:/thomashodson.com">Tom</a></footer>
+<footer>Built by <a href = "https://thomashodson.com">Tom</a></footer>
 
 </section>
