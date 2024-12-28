@@ -1,5 +1,8 @@
 host: 0.0.0.0
 
+description: | 
+  I am an audiovisual artist interested in the relationship between music and place. Through sonic explorations, film making and intermedial VJ techniques, my practice sits at the intersection of music and the moving image.
+
 plugins:
   - jekyll-redirect-from
 
