@@ -5,15 +5,15 @@ head: |
     <link rel="stylesheet" href="/assets/css/landing_page_css.css">
     <script src="/assets/js/landing_page.js" type = "module"></script>
 ---
-<section class = "bio">
+<section class = "bio h-card">
 <section class = "bio-left">
-<img class = "photo" src="/assets/images/pic.jpeg">
+<img class = "photo u-photo avatar" src="/assets/images/pic.jpeg">
 
 <div class = "logo-links">
     <!-- <a href = "/">{% include home.svg %}</a> -->
-    <a href = "mailto:montyfew@gmail.com">{% include email.svg %}</a>
-    <a href = "https://instagram.com/montyfew">{% include insta.svg %}</a>
-    <a href = "https://monoworks.bandcamp.com">{% include bandcamp-button-circle-line-white.svg %}</a>
+    <a href = "mailto:montyfew@gmail.com" rel="me">{% include email.svg %}</a>
+    <a href = "https://instagram.com/montyfew" rel="me" class="u-url">{% include insta.svg %}</a>
+    <a href = "https://monoworks.bandcamp.com" rel="me" class="u-url">{% include bandcamp-button-circle-line-white.svg %}</a>
 </div>
 </section>
 

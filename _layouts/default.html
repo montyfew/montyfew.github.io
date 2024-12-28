@@ -1,26 +1,44 @@
 <!doctype html>
 <html>
   <head>
-  <title>{{page.title}}</title>
-  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-  <meta name="theme-color" content="#222">
-  <script type="text/javascript" src="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.js"></script>
-  <link href="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""/>
+    <!-- Hello to anyone reading the source of this page. Please,
+    stay a while and make yourself comfortable. ☕
+    Source code: https://github.com/montyfew/montyfew.github.io
+    HTML/CSS/JS by Tom Hodson (thomashodson.com) with 🩷 for Monty Williams 
+    © 2024 Monty Williams All rights reserved unless you ask nicely. -->
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    
+    <!-- HTML Meta Tags -->
+    <title>{{page.title | strip_html}}</title>
+    <meta property="og:title" content="{{page.title | strip_html }}">
+    <meta property="og:url" content="{{page.url | absolute_url}}">
+    <!-- <meta name="fediverse:creator" content=""> -->
+    <meta property="og:type" content="website">
+    
+    <!-- Theme tags -->
+    <meta name="theme-color" content="#222">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
 
-  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <script type="text/javascript" src="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@3.2.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css">
 
-  <script src="/assets/js/all_pages.js" type = "module"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
 
-  {{ page.head }}
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+
+    <script src="/assets/js/all_pages.js" type = "module"></script>
+
+    {{ page.head }}
   </head>
   <body class="{{page.class}}">
     {% include header.html %}
