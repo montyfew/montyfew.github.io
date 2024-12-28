@@ -1,7 +1,9 @@
 ---
 title: Audiovisual <br> Projects
 layout: default
-# head: <script>
+permalink: /av
+redirect_from:
+  - /av_projects
 ---
 <div id="banner-map" class="map"></div>
 
