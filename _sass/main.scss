@@ -49,13 +49,6 @@ p {
   line-height: 1.5;
 }
 
-.smooth-reveal {
-  transition: opacity 700ms ease-out;
-}
-
-.smooth-reveal.hidden {
-  opacity: 0;
-}
 
 main {
   flex-grow: 1;
@@ -196,26 +189,6 @@ section.av_sketches {
   }
 }
 
-// Could consider a grid instead
-// section.music, section.vj {
-//     /**
-//      * User input values.
-//      */
-//     --grid-layout-gap: 10px;
-//     --grid-column-count: 10;
-//     --grid-item--min-width: 200px;
-
-//     /**
-//      * Calculated values.
-//      */
-//     --gap-count: calc(var(--grid-column-count) - 1);
-//     --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
-//     --grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count));
-
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
-//     grid-gap: var(--grid-layout-gap);
-//   }
 
 article.project {
   width: 200px;
@@ -256,6 +229,15 @@ article.project {
     width: 100%;
   }
 }
+
+@media not (prefers-reduced-motion: reduce) {
+	header { view-transition-name: hero }
+}
+
+
+@view-transition {
+    navigation: auto;
+  }
 
 // Light mode, disabled for now
 // @media (prefers-color-scheme: light) {
