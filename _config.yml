@@ -22,6 +22,8 @@ collections:
     output: true
   videography:
     output: true
+  blog:
+    output: true
 
 defaults:
   - scope:
@@ -54,3 +56,8 @@ defaults:
       type: "vj"
     values:
       layout: "vj"
+  - scope:
+      path: ""
+      type: "blog"
+    values:
+      layout: "blog"
