@@ -231,9 +231,9 @@ article.project {
   }
 }
 
-@media not (prefers-reduced-motion: reduce) {
-	header { view-transition-name: hero }
-}
+// @media not (prefers-reduced-motion: reduce) {
+// 	header { view-transition-name: hero; }
+// }
 
 
 @view-transition {
