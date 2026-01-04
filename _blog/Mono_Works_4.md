@@ -1,7 +1,7 @@
 ---
 title: "Mono Works #4"
-date: 01-07-2024
-description: Five year anniversary postcard release
+date: 29-08-2025
+description: Five year anniversary postcard release.
 
 image:
     src: /assets/blog/mw_4.jpg

@@ -1,6 +1,6 @@
 ---
 title: Pylon Reveries
-date: 01-08-2024
+date: 27-12-2025
 description: A débouchement along the Black Path with RARA wanderers.
 
 image:
