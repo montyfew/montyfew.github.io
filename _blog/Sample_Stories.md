@@ -1,7 +1,7 @@
 ---
 title: Sample Stories
 date: 01-06-2024
-description: Exploring the boundaries of Post-rock and edgelands.
+description: Exploring the boundaries of Post-rock and edgelands. A collaboration with...
 
 image:
     src: /assets/blog/sample_stories.png
@@ -11,11 +11,6 @@ image:
 <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3861177416/size=large/bgcol=333333/linkcol=2ebd35/transparent=true/" seamless><a href="https://deafinspector.bandcamp.com/album/chapter-2">Chapter 2 by Deaf Inspector</a></iframe>
 </section>
 <section class = "narrow" markdown=1>
-The first EP by my Birmingham band, Deaf Inspector.
+A collaboration with Cam Christie
 
-released February 25, 2014
 
-Recorded by [Issac Benjamin Cartwright][website] at [Muthers Studio][website2], Birmingham.
-
-[website]: https://soundcloud.com/ibcrecordingengineer
-[website2]: https://www.muthersstudio.com/
