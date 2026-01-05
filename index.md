@@ -18,7 +18,7 @@ head: |
 </section>
 
 <section class = "bio-right">
-I am an artist-researcher interested in the relationship between music and place. My work generally emerges between sound and video compositions, rooted within explorations of the city. Have a look around and get in touch for collaborations and ideas.
+I am an artist-researcher interested in the relationship between music and place. My work generally emerges through sound and video compositions, rooted within explorations of the city. Have a look around and get in touch for collaborations and ideas.
 </section>
 
 <footer>Built by <a href = "https://thomashodson.com">Tom</a></footer>
