@@ -1,5 +1,5 @@
 ---
-title: "Mono Works #4"
+title: "Mono Works #4: Home"
 date: 29-08-2025
 description: Five year anniversary postcard release.
 
@@ -8,21 +8,27 @@ image:
     alt: 
 ---
 <section class = "centered">
-<iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=1559353288/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://outdoorscene.bandcamp.com/album/deconstructed-slowcore">Deconstructed Slowcore by Outdoor Scene</a></iframe>
+<iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=3274233614/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/home">Home by Mono Works</a></iframe>
 </section>
 <section class = "narrow" markdown=1>
-The seeds of Outdoor Scene were sewn in a Moor End Road basement, squeezing guitar, bass and drums between the damp brick walls.
 
-A strong foundation had been laid, but our bassist moved southward, leaving a two-piece formation standing back to back. We moved from Moor End Road to the Moor Oaks Triangle, tracing new ideas over previous sketches.
+Five years since the release of my first Mono Works recordings, [8 Landscapes][website], I bring you Mono Works #4: Home. To honour the anniversary, this EP is also available in [postcard form][website2].
 
-Stolen moments between the architecture studio feed into this EP, finding haven in the tiny spare room of our rented house.
+While the recordings return to a more sparse arrangement between guitar and vocals, I was honoured to expand on this through the EP release show at [Underwater][website3] featuring Reuben Das of [Deaf Inspector][website4] on keys and [Katogo][website5] guesting on the drum machine. Thank you to Demi for curating the show and for my good friend [Sung Loh][website6] for jumping on the bill.
 
-Living amongst good friends, not realising the moment till it had passed, fond memories in a snapshot of time. We hope to capture these fragments.
+[website]: https://montyfew.com/music/8_Landscapes.html
+[website2]: https://monoworks.bandcamp.com/album/home
+[website3]: https://linktr.ee/underwater.music?utm_source=linktree_profile_share&ltsid=615d455e-484b-452f-97ba-b4fb33561a72
+[website4]: https://deafinspector.tumblr.com/
+[website5]: https://katogo.bandcamp.com/
+[website6]: https://soundcloud.com/sungloh
 
-released October 9, 2017
+<figure>
+<img src="/assets/blog/mw_trio.jpg" alt="a photo of Mono Works performing as a trio">
+<figcaption>Mono Works trio</figcaption>
+</figure>
 
-All songs written by Outdoor Scene: Monty Williams (guitar/vocals), Dougy Baldwin (drums).
-
-Recorded, mixed and mastered by Adam Zejma and Michael Aitken at [Tye Die Tapes][website], Sheffield.
-
-[website]: https://tyedietapes.bandcamp.com/
+<figure>
+<img src="/assets/blog/sung_loh.jpg" alt="Sung Loh on stage">
+<figcaption>Sung Loh</figcaption>
+</figure>
