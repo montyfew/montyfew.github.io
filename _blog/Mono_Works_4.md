@@ -14,6 +14,11 @@ image:
 
 Five years since the release of my first Mono Works recordings, [8 Landscapes][website], I bring you Mono Works #4: Home. To honour the anniversary, this EP is also available in [postcard form][website2].
 
+<section class = "narrow" markdown = 1>
+<section class = "centered">
+<img src="/assets/blog/mw4_postcard.JPG" alt="a postcard of the EP on a wall">
+</section>
+
 While the recordings return to a more sparse arrangement between guitar and vocals, I was honoured to expand on this through the EP release show at [Underwater][website3] featuring Reuben Das of [Deaf Inspector][website4] on keys and [Katogo][website5] guesting on the drum machine. Thank you to Demi for curating the show and for my good friend [Sung Loh][website6] for jumping on the bill.
 
 [website]: https://montyfew.com/music/8_Landscapes.html
