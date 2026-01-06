@@ -8,3 +8,5 @@ gem 'jekyll-redirect-from'
 gem "csv", "~> 3.3"
 
 gem "base64", "~> 0.3.0"
+
+gem "logger", "~> 1.7"
