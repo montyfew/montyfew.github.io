@@ -1,5 +1,5 @@
 ---
-title: "Mono Works #4: Home"
+title: "Mono Works #4"
 date: 29-08-2025
 description: Five year anniversary postcard release.
 
