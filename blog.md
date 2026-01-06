@@ -4,7 +4,8 @@ layout: default
 ---
 
 <section class = "blog">
-{% for entry in site.blog %}
+{% assign sorted = site.blog | sort: 'date' | reverse %}
+{% for entry in sorted %}
   <a href="{{entry.url}}">
   <article class = "blog" id = "{{entry.id}}">
   <time datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: '%b %Y' }}</time>
