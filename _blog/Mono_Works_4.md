@@ -5,7 +5,7 @@ description: Five year anniversary postcard release.
 
 image:
     src: /assets/blog/mw_4.jpg
-    alt: 
+    alt: part of the A to Z map index showing west London
 ---
 <section class = "centered">
 <iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=3274233614/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/home">Home by Mono Works</a></iframe>
