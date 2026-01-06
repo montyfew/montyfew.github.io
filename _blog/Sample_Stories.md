@@ -18,7 +18,7 @@ I was invited to (pounced on) a dilligently researched radio show by my esteemed
 
 Cam guided the discussion to allow me to explore my specific interest in Post-rock and edgelands, mainly through the music of Bark Psychosis. My research is indebted to Archer Sanderson's article 'Boundary Sounds' in [Weird Walk #4][website2] which I highly recommend.
 
-Thank you to Tabbie of [Sample Stories][website3] for hosting this rather unconventional episode!
+Thank you to Tabby of [Sample Stories][website3] for hosting this rather unconventional episode!
 
 [website]: https://www.instagram.com/cam__christie_/
 [website2]: https://shop.weirdwalk.co.uk/products/ww-zine-issue-four
