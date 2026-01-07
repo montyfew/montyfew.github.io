@@ -27,6 +27,19 @@ people like your feet?’ as a reference point to guide our theory and actions t
 
 What this meant on the ground was facilitating a series of ways in which we may interact with the environment. Ranging from the playful to the absurd, we introduced participants to different exercises which encouraged getting lost and reading the city in alternative ways. Sources that inspired this included psychogeographic manifestos from the 1950s through to contemporary art practice with a concern for place.
 
+<section class = "narrow" markdown = 1>
+<section class = "centered">
+<img src="/assets/blog/TWI_list.jpeg" alt="workshop participants sitting in circle">
+</section>
+
+Here's a sonic extract from one of our exercises:
+<section class = "narrow" markdown = 1>
+<section class = "centered">
+<audio controls src="/assets/audio/TWI_voice_memos.mp3"></audio>
+</section>
+
+While we didn't demand any kind of phsyical output, the particpants opted to collate a series of visual fragments from the two weeks in the form of a zine. I enjoy how this offers a memory of our time spent in Benidorm, an emotional map of the city.
+
 [website]: https://just-ke-zhang.com/THE-WAY-IN-IS-NOT-THE-WAY-OUT#:~:text=As%20tutors%2C%20we%20aim%20to,performance%20work%20in%20the%201980s.
 [website2]: https://www.easanetwork.org/
 
@@ -35,6 +48,6 @@ What this meant on the ground was facilitating a series of ways in which we may 
 <img src="/assets/blog/TWI_zine_folded.jpeg" alt="zines produced by the workshop">
 </section>
 
-While we didn't demand any kind of phsyical output, the particpants opted to collate a series of visual fragments from the two weeks in the form of a map-like zine. I enjoy how this offers a memory of our time spent in Benidorm.
+
 
 Thank you to all of our participants alongside EASA Spain for putting together this ambitious event.
