@@ -60,7 +60,7 @@ A sonic memory of the event can be found on our Bandcamp:
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2512384015/size=small/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless><a href="https://deafinspector.bandcamp.com/album/ten-year-reunion-live-at-muthers-studios">Ten Year Reunion, Live at Muthers Studios by Deaf Inspector</a></iframe>
 
-A lucky few got to pick up some limited editions t-shirts (and one tote bag!) with this design I'd made in reference to our home county, alongside the genre of [Midwest Emo][website7] which had (and still does) influence my musical meanderings. Thanks to Adam for letting me use his garage screen printing setup and for [Hunk Print][website8] in Sheffield for making the screen.
+A lucky few got to pick up some limited edition t-shirts (and one tote bag!) with a design I'd made in reference to our home county, alongside the genre of [Midwest Emo][website7] which had (and still does) influence my musical meanderings. Thanks to Adam for letting me use his garage screen printing setup and for [Hunk Print][website8] in Sheffield for making the screen.
 
 There have been calls for another pressing, maybe if you keep on pestering me...
 
