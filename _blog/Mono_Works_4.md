@@ -7,17 +7,12 @@ image:
     src: /assets/blog/mw_4.jpg
     alt: part of the A to Z map index showing west London
 ---
-<section class = "centered">
-<iframe style="border: 0; width: 350px; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=3274233614/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/home">Home by Mono Works</a></iframe>
-</section>
-<section class = "narrow" markdown=1>
+
+<iframe style="border: 0; width: 100%; max-width: 500px; aspect-ratio: 1 / 1.3" src="https://bandcamp.com/EmbeddedPlayer/album=3274233614/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/home">Home by Mono Works</a></iframe>
 
 Five years since the release of my first Mono Works recordings, [8 Landscapes][website], I bring you Mono Works #4: Home. To honour the anniversary, this EP is also available in [postcard form][website2].
 
-<section class = "narrow" markdown = 1>
-<section class = "centered">
 <img src="/assets/blog/mw4_postcard.JPG" alt="a postcard of the EP on a wall">
-</section>
 
 While the recordings return to a more sparse arrangement between guitar and vocals, I was honoured to expand on this through the EP release show at [Underwater][website3] featuring Reuben Das of [Deaf Inspector][website4] on keys and [Katogo][website5] guesting on the drum machine. Thank you to Demi for curating the show and for my good friend [Sung Loh][website6] for jumping on the bill.
 
