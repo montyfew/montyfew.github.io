@@ -1,6 +1,5 @@
 ---
-title: | 
-    All These Moments
+title: All These Moments
 
 # permalink: /vj/atm
 # redirect_from:
@@ -9,7 +8,9 @@ title: |
 image:
     src: /assets/vjing/atm_live.png
     alt: Rotem playing a modular synth in front of a projected visual
+
 ---
+
 <section class = "narrow" markdown=1>
 
 <section class = "centered">
@@ -43,3 +44,4 @@ The transitions between movements were a key focus, where the use of a MIDI cont
 
 
 
+<!-- </section> -->

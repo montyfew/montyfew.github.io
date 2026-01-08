@@ -28,7 +28,7 @@ body {
   color: #fcfcfc; // text color
   background: #222; // background color
 
-  max-width: 1700px;
+  max-width: 900px;
   width: 100%;
   padding-top: 50px;
   padding-left: 50px;
@@ -52,6 +52,9 @@ p {
 
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-grow: 1;
 }
 
@@ -115,6 +118,10 @@ section.centered {
   }
 }
 
+img {
+  width: 100%;
+}
+
 section.narrow {
   max-width: 500px;
   margin: auto;
@@ -122,9 +129,6 @@ section.narrow {
   iframe {
     margin-top: 1em;
     margin-bottom: 1em;
-  }
-  img {
-    width: 100%;
   }
 }
 
@@ -141,7 +145,11 @@ footer {
 
 figure {
   margin: 0;
-  width: 100%;
+  width: fit-content;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   figcaption {
     text-align: center;
@@ -151,6 +159,8 @@ figure {
     margin: 0.8em auto;
   }
 }
+
+
 
 section.av_sketches {
   display: flex;

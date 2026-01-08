@@ -5,10 +5,10 @@ image:
     src: /assets/music/MW3cover_small.jpg
     alt: a long exposure night time photograph from the hills of South London
 ---
-<section class = "centered">
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2564805738/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-london-loops">South London Loops by Mono Works</a></iframe>
-</section>
 <section class = "narrow" markdown=1>
+
+<iframe style="border: 0; width: 100%; height: 650px;" src="https://bandcamp.com/EmbeddedPlayer/album=2564805738/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-london-loops">South London Loops by Mono Works</a></iframe>
+
 A selection of instrumentals written after moving to London in the summer of 2021, soundtracking my explorations of the city at the time and providing a reflection on them in the years since.
 
 These compositions formed a sonic bedrock for my AV Project, [Rhythms of the City][website2].
@@ -31,3 +31,5 @@ South London Loop #1 previously released on [Black Beacon Sound][website].
 [website2]: https://montyfew.github.io/av_projects/AVC.html
 [website3]: https://tyedietapes.bandcamp.com/
 [website4]: https://katogo.bandcamp.com/
+
+</section>

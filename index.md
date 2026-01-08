@@ -10,7 +10,6 @@ head: |
 <img class = "photo u-photo avatar" src="/assets/images/pic.jpeg">
 
 <div class = "logo-links">
-    <!-- <a href = "/">{% include home.svg %}</a> -->
     <a href = "mailto:montyfew@gmail.com" rel="me">{% include email.svg %}</a>
     <a href = "https://instagram.com/montyfew" rel="me" class="u-url">{% include insta.svg %}</a>
     <a href = "https://monoworks.bandcamp.com" rel="me" class="u-url">{% include bandcamp-button-circle-line-white.svg %}</a>

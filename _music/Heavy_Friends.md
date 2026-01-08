@@ -5,10 +5,10 @@ image:
     src: /assets/music/Heavy_Friends.jpg
     alt: a hand drawn collage of an imagined English landscape by Charlie Adams
 ---
-<section class = "centered">
-<iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=2979723823/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/heavy-friends">Heavy Friends by Mono Works</a></iframe>
-</section>
 <section class = "narrow" markdown=1>
+
+<iframe style="border: 0; width: 100%; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=2979723823/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/heavy-friends">Heavy Friends by Mono Works</a></iframe>
+
 A motley comp of wayward folk, pensive emo and cosmic disco from several heavy friends.
 
 The ancient realms of Salop, Sheffield and London are all here, breathing through each and every droned string, wallop of french horn and parched harmony.
@@ -40,3 +40,5 @@ Mono Works
 [website4]: https://aparanoidking.bandcamp.com/
 [website5]: https://edfreeth.bandcamp.com/
 [website6]: https://emergency-ration-ensemble.bandcamp.com/
+
+</section>

@@ -9,7 +9,6 @@ layout: default
     <a href="{{entry.url}}">
       <img src="{{entry.image.src}}" alt="{{entry.image.alt}}" style="border-color: {{entry.color}};">
     </a>
-    <!-- <h2 class = "project-title">{{entry.title}}</h2> -->
   </article>
 {% endfor %}
 </section>
