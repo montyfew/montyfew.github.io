@@ -10,7 +10,7 @@ image:
 
 <section class = "centered">
 <figure>
-<img src="/assets/blog/DI_band.jpg" alt="Deaf Inspector trio on stage">
+<img src="/assets/blog/DI_band.JPG" alt="Deaf Inspector trio on stage">
 <figcaption>Deaf Inspector 2024, photo by Leah Das</figcaption>
 </figure>
 </section>
@@ -29,7 +29,7 @@ With the venue in mind, I invited some of the finest Midlands-adjacent musos to 
 
 <section class = "centered">
 <figure>
-<img src="/assets/blog/heavy_friends.jpg" alt="Ed and Em of Heavy friends on stage">
+<img src="/assets/blog/heavy_friends.JPG" alt="Ed and Em of Heavy friends on stage">
 <figcaption>Heavy Friends</figcaption>
 </figure>
 </section>
@@ -37,7 +37,7 @@ With the venue in mind, I invited some of the finest Midlands-adjacent musos to 
 
 <section class = "centered">
 <figure>
-<img src="/assets/blog/flickers.jpg" alt="a blurred photo of Flickers from the Fen on stage">
+<img src="/assets/blog/flickers.JPG" alt="a blurred photo of Flickers from the Fen on stage">
 <figcaption>Flickers from the Fen</figcaption>
 </figure>
 </section>
@@ -47,7 +47,7 @@ When us DI boys finally graced the stage, it was a real joy to be back at it wit
 
 <section class = "centered">
 <figure>
-<img src="/assets/blog/sendean.jpg" alt="Deaf Inspector trio joined on stage by Sam Endean">
+<img src="/assets/blog/sendean.JPG" alt="Deaf Inspector trio joined on stage by Sam Endean">
 <figcaption>The formidable S.Endean</figcaption>
 </figure>
 </section>
