@@ -6,7 +6,7 @@ image:
     src: /assets/radio/ipod_classics.png
     alt: an image of Monty inside the screen of his iPod Classic
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe width="100%" style="aspect-ratio: 1 / 1;"  src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2FFoodhallCommunityRadio%2Fmonty-ipod-classics-w-monty%2F" frameborder="0" ></iframe>
 
@@ -17,4 +17,3 @@ An unearthing of the magnificent .mp3s from deep within my iPod's whirring hard 
 
 [website]: https://tyedietapes.bandcamp.com/
 
-</section>

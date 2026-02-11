@@ -6,7 +6,7 @@ image:
     src: /assets/radio/in_progress.png
     alt: a collage of portraits featuring Katogo and Mono Works
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe width="100%" style="aspect-ratio: 1 / 1" src="https://player-widget.mixcloud.com/widget/iframe/?feed=%2FFoodhallCommunityRadio%2Fmono-works-katogo-in-progress-w-mono-works-katogo-1%2F" frameborder="0" ></iframe>
 
@@ -19,4 +19,3 @@ This initially remote collaboration, between Rainham and Sheffield, went on to b
 [website2]: https://www.instagram.com/p/Cx5REusMVLR/?img_index=1
 [website3]: https://soundcloud.com/katogo
 
-</section>
