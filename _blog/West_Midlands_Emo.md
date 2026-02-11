@@ -68,5 +68,5 @@ Another reunion however, maybe in 2034?!
 [website7]: https://montyfew.com/radio/midweek_emo
 [website8]: https://www.hunkprint.com/
 
-<img src="/assets/blog/WME.jpg" alt="a map of the West Midlands">
+<img src="/assets/blog/WME.jpg" alt="a map of the West Midlands" style="filter: grayscale(1) contrast(0.73) invert(1);">
 
