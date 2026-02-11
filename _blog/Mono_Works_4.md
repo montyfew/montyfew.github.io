@@ -16,6 +16,8 @@ Five years since the release of my first Mono Works recordings, [8 Landscapes][w
 
 While the recordings return to a more sparse arrangement between guitar and vocals, I was honoured to expand on this through the EP release show at [Underwater][website3] featuring Reuben Das of [Deaf Inspector][website4] on keys and [Katogo][website5] guesting on the drum machine. Thank you to Demi for curating the show and for my good friend [Sung Loh][website6] for jumping on the bill.
 
+As an exclusive treat for your website surfers, here's a live recording of our set:
+
 [website]: https://montyfew.com/music/8_Landscapes.html
 [website2]: https://monoworks.bandcamp.com/album/home
 [website3]: https://linktr.ee/underwater.music?utm_source=linktree_profile_share&ltsid=615d455e-484b-452f-97ba-b4fb33561a72
@@ -23,12 +25,19 @@ While the recordings return to a more sparse arrangement between guitar and voca
 [website5]: https://katogo.bandcamp.com/
 [website6]: https://soundcloud.com/sungloh
 
+<audio controls src="/assets/audio/MW_TOL.mp3"></audio>
+
 <figure>
 <img src="/assets/blog/mw_trio.jpg" alt="a photo of Mono Works performing as a trio">
 <figcaption>Mono Works trio</figcaption>
 </figure>
 
+And, finally captured on record! The magnifcent looping of Sung Loh:
+
+<audio controls src="/assets/audio/SL_TOL.mp3"></audio>
+
 <figure>
 <img src="/assets/blog/sung_loh.jpg" alt="Sung Loh on stage">
 <figcaption>Sung Loh</figcaption>
 </figure>
+
