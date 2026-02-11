@@ -5,7 +5,7 @@ image:
     src: /assets/music/Patterns_Return_Home.jpg
     alt: a digital collage overlaying silhouetted figures of Katogo and Mono Works
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe style="border: 0; width: 100%; height: 555px;" src="https://bandcamp.com/EmbeddedPlayer/album=2374017727/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/patterns-return-home">Patterns / Return Home by Mono Works / Katogo</a></iframe>
 
@@ -22,4 +22,3 @@ Mastered by Adam Zejma at [Tye Die Tapes][website2] HQ, Sheffield.
 [website]: https://katogo.bandcamp.com/
 [website2]: https://tyedietapes.bandcamp.com/
 
-</section>

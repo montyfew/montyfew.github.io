@@ -5,7 +5,7 @@ image:
     src: /assets/music/Deconstructed_Slowcore.jpg
     alt: a snare drum depicting the Outdoor Scene logo
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe style="border: 0; width: 100%; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=1559353288/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://outdoorscene.bandcamp.com/album/deconstructed-slowcore">Deconstructed Slowcore by Outdoor Scene</a></iframe>
 
@@ -25,4 +25,3 @@ Recorded, mixed and mastered by Adam Zejma and Michael Aitken at [Tye Die Tapes]
 
 [website]: https://tyedietapes.bandcamp.com/
 
-</section>

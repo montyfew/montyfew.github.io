@@ -5,7 +5,7 @@ image:
     src: /assets/music/MW3cover_small.jpg
     alt: a long exposure night time photograph from the hills of South London
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe style="border: 0; width: 100%; height: 650px;" src="https://bandcamp.com/EmbeddedPlayer/album=2564805738/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/south-london-loops">South London Loops by Mono Works</a></iframe>
 
@@ -32,4 +32,3 @@ South London Loop #1 previously released on [Black Beacon Sound][website].
 [website3]: https://tyedietapes.bandcamp.com/
 [website4]: https://katogo.bandcamp.com/
 
-</section>

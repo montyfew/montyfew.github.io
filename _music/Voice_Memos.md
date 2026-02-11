@@ -6,7 +6,7 @@ image:
     alt: a long exposure photograph showing the reflected lights of a sample pad in a window at night
 
 ---
-<section class = "narrow" markdown=1>
+
 
 <iframe style="border: 0; width: 100%; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=4006707959/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://outdoorscene.bandcamp.com/album/voice-memos-blakeney-demos">Voice Memos // Blakeney Demos by Outdoor Scene</a></iframe>
 
@@ -35,4 +35,3 @@ Mixed and mastered by Adam Zejma at [Tye Die Tapes][website2], Sheffield.
 
 Music video and field recordings by Bart Belleudy.
 
-</section>
