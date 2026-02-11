@@ -8,12 +8,11 @@ image:
     alt: black and white abstract images in a 2x2 grid
 ---
 
-<section class = "centered">
+
 <figure>
 <img src="/assets/blog/DI_band.JPG" alt="Deaf Inspector trio on stage">
 <figcaption>Deaf Inspector 2024, photo by Leah Das</figcaption>
 </figure>
-</section>
 
 Ten years after we first laid pensive melody to pounding drum beat, my Birmingham band Deaf Inspector proudly returned to our ancestral homeland of [Muthers Studio][website2].
 
@@ -27,30 +26,24 @@ To put it in other words, I'd had the ambitious (foolish perhaps) notion that it
 With the venue in mind, I invited some of the finest Midlands-adjacent musos to complete the bill. First up were Cannockian combo [Heavy Friends][website3] whose evocative indie-folk told tales from the heart of England to the coast of Wales. Complimenting their set, [Flickers from the Fen][website4] went on to bestow a heady brew of dungeon synth upon the evening. We were in fine company.
 
 
-<section class = "centered">
 <figure>
 <img src="/assets/blog/heavy_friends.JPG" alt="Ed and Em of Heavy friends on stage">
 <figcaption>Heavy Friends</figcaption>
 </figure>
-</section>
 
 
-<section class = "centered">
 <figure>
 <img src="/assets/blog/flickers.JPG" alt="a blurred photo of Flickers from the Fen on stage">
 <figcaption>Flickers from the Fen</figcaption>
 </figure>
-</section>
 
 When us DI boys finally graced the stage, it was a real joy to be back at it with the energy of the trio. Nothing quite matches the feeling of live drums in my opinion, however much I stray into programmed beats! The icing on the cake came in the form of one Sounds Like Space alumni (AKA the first iteration of our band, don't go there...) jumping on stage to join us in our cover of ['A.M. 180'][website5] by the one and only Grandaddy. A real blast from the past.
 
 
-<section class = "centered">
 <figure>
 <img src="/assets/blog/sendean.JPG" alt="Deaf Inspector trio joined on stage by Sam Endean">
 <figcaption>The formidable S.Endean</figcaption>
 </figure>
-</section>
 
 Most of all, we were honoured that so many friends came out to join us. Travelling far and wide from the winding streets of Shrewsbury to the windy peaks of Sheffield.
 
@@ -75,8 +68,5 @@ Another reunion however, maybe in 2034?!
 [website7]: https://montyfew.com/radio/midweek_emo
 [website8]: https://www.hunkprint.com/
 
-
-<section class = "centered">
 <img src="/assets/blog/WME.jpg" alt="a map of the West Midlands">
-</section>
 

@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<section class = "medium" markdown=1>
+<section class = "narrow" markdown=1>
 {{ content }}
 </section>
