@@ -121,14 +121,20 @@ img {
   width: 100%;
 }
 
+iframe {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section.medium {
+  max-width: 900px;
+  margin: auto;
+}
+
+
 section.narrow {
   max-width: 500px;
   margin: auto;
-
-  iframe {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
 }
 
 body {

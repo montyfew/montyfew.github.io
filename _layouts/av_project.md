@@ -4,7 +4,9 @@ layout: default
 
 <div id="banner-map" class="map"></div>
 
+<section class = "narrow" markdown=1>
 {{ content }}
+</section>
 
 <script type="module">
     import {defaultMap, customGeojsonStyles, omnivoreLoaders} from "/assets/js/maps.js";
