@@ -10,7 +10,7 @@ image:
 
 <iframe style="border: 0; width: 100%; max-width: 500px; aspect-ratio: 1 / 1.3" src="https://bandcamp.com/EmbeddedPlayer/album=3274233614/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://monoworks.bandcamp.com/album/home">Home by Mono Works</a></iframe>
 
-Five years since the release of my first Mono Works recordings, [8 Landscapes][website], I bring you Mono Works #4: Home. To honour the anniversary, this EP is also available in [postcard form][website2].
+Five years since the release of my first Mono Works recordings, [8 Landscapes][website], I bring you Mono Works #4: Home. To mark the anniversary, this EP is also available in [postcard form][website2].
 
 <img src="/assets/blog/mw4_postcard.JPG" alt="a postcard of the EP on a wall">
 
