@@ -17,14 +17,29 @@ header {
         text-decoration: none;
     }
 
-    h1 {
-        text-align: right;
+    hgroup {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 100%;
         min-height: 50px; // necessary to prevent layout shift when changing between pages with multiline titles and single line ones
-        display: flex;
-        justify-content: right; /* Align horizontal */
-        align-items: center; /* Align vertical */
         
+        p {
+            font-size: 0.8rem;
+            font-style: italic;
+            text-align: right;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: right;
+            margin: 0;
+        }
+
+        div.spacer {
+            height: 1em;
+        }
 
     }
     nav {
