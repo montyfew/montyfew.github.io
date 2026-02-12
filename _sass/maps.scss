@@ -5,6 +5,7 @@
   height: 300px;
   outline: 1px white solid; //single pixel wide white border
   margin-bottom: 15px; // gap between map and images below
+  background-color: var(--background-color);
 }
 
 // Apply filters to the different maps, in this case make alidade greyscale
@@ -18,5 +19,5 @@
 
 // This sets the background of the little toggle in the top right of the map to the background color
 .leaflet-control-layers-toggle {
-  background-color: #222;
+  background-color: var(--background-color);
 }

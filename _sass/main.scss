@@ -22,11 +22,14 @@ html {
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
+
+  --background-color: #222;
+  --foreground-color: #fcfcfc;
 }
 
 body {
-  color: #fcfcfc; // text color
-  background: #222; // background color
+  color: var(--foreground-color);
+  background: var(--background-color);
 
   // max-width: 900px;
   width: 100%;
