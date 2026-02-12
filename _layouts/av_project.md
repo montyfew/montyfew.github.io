@@ -2,12 +2,15 @@
 layout: default
 ---
 
+{% if page.maps %}
 <div id="banner-map" class="map"></div>
+{% endif %}
 
 <section class = "narrow" markdown=1>
 {{ content }}
 </section>
 
+{% if page.maps %}
 <script type="module">
     import {defaultMap, customGeojsonStyles, omnivoreLoaders} from "/assets/js/maps.js";
 
@@ -22,3 +25,4 @@ layout: default
           .addTo(map); // Add the layer to the map
       {% endif%}
 </script>
+{% endif %}

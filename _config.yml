@@ -39,7 +39,7 @@ defaults:
       path: ""
       type: "av_projects"
     values:
-      layout: "music"
+      layout: "av_project"
   - scope:
       path: ""
       type: "videography"
