@@ -2,6 +2,7 @@
 title: Audiovisual <br> Projects
 layout: default
 permalink: /av
+maps: true
 redirect_from:
   - /av_projects
 ---
@@ -22,7 +23,7 @@ redirect_from:
       <img src="{{entry.image.src}}" alt="{{entry.image.alt}}">
     </a>
     <h2 class = "project-title">{{entry.title}}</h2>
-    {{entry.content}}
+    {{entry.description | markdownify}}
 
   </article>
 {% endfor %}
