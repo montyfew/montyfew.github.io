@@ -19,11 +19,10 @@ header {
 
     hgroup {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-rows: 1fr min-content 1fr;
         width: 100%;
-        min-height: 50px; // necessary to prevent layout shift when changing between pages with multiline titles and single line ones
+        align-items: end;
         
         p {
             font-size: 0.8rem;
@@ -35,10 +34,6 @@ header {
         h1 {
             text-align: right;
             margin: 0;
-        }
-
-        div.spacer {
-            height: 1em;
         }
 
     }
