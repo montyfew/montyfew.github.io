@@ -111,7 +111,7 @@ redirect_from:
         let bounds = new maplibregl.LngLatBounds();
 
         for (let feature of geojson.features) {
-          console.log(feature.geometry.type);
+          console.log("Selecting a ", feature.geometry.type);
           let coordinates = feature.geometry.coordinates;
           if (feature.geometry.type === "Point") {
             bounds.extend(coordinates.slice(0,2));
@@ -123,7 +123,14 @@ redirect_from:
           }
 
         }
-        console.log(bounds);
+        if(bounds._ne.lat - bounds._sw.lat === 0.0) {
+          bounds._ne.lat += 0.01;
+          bounds._sw.lat -= 0.01;
+        }
+        if(bounds._ne.lng - bounds._sw.lng === 0.0) {
+          bounds._ne.lng += 0.01;
+          bounds._sw.lng -= 0.01;
+        }
 
         map.fitBounds(bounds, {
             padding: 20
